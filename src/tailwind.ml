@@ -116,8 +116,6 @@ let parse input =
   read_comment 0 @@ fun i ->
   read_entries i @@ fun _ entries -> entries
 
-let _ = parse "foo (x,y,z){bar}@font-face{x;y}@media{x{y}}"
-
 let rec print_entries prefix entries =
   List.iter
     (function
