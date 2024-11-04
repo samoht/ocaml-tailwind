@@ -1,0 +1,3 @@
+(executable
+ (name tailwind)
+ (modules tailwind))
